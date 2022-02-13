@@ -1,15 +1,46 @@
-# Basic Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+# Social Network in Web3 and Blockchain
 
-Try running some of the following tasks:
+With the ascending concern about web3 and the promises of it being the future of humanity, I've decided to study the field and start to create projects to get the shape of the so call "biggest turn in the web"
+## NPM Commands 
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+#### Install dependencies 
+
+```js
+npm install
 ```
+
+#### First of all, run the Hardhat and get the fake Ether accounts
+
+(Do this in another Terminal, we need two terminal screens to run this project)
+
+```js
+npx hardhat node
+```
+
+#### Deploy your script to the network
+
+(To have better test results, test it in localhost. I'm leaving a .env.local to run local stuff)
+
+```js
+npx hardhat run scripts/deploy.js --network localhost
+```
+
+#### Run the app
+
+```js
+npm start
+```
+
+
+## Author
+
+- [@zagoguic](https://www.github.com/mecbonjourno)
+
+
+## Stack 
+
+**Front-end:** React, NextJs
+
+**Back-end:** Node, HardHat, Polygon Network, Solidity
+
